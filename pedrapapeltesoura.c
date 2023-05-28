@@ -3,6 +3,7 @@
 #include <stdlib.h>// necessário p/ as funções rand() e srand()
 #include<time.h>//necessário p/ função time()
 
+/*Nome da dupla - Marcos cauan e Rener Vitor*/
 
 int main(){
    
@@ -17,7 +18,6 @@ int main(){
     while (repeticao < 1){
     while((vitoriaPessoa < 3) && (vitoriaMaquina < 3)){
        
-        /*Gerando o número do PC*/
         srand(time(NULL));
  
         for (i=0; i < 1; i++){
