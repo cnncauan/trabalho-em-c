@@ -3,6 +3,8 @@
 #include <stdlib.h>
 
 
+/**Nomes da dupla - Marcos Cauan e Rener Vitor*/
+
 int main(){
     
     int maquina, i, numeroPessoa, tentativa, sim, fecha;
