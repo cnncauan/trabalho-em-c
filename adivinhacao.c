@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-#include <time.h>
+
 
 int main(){
     
@@ -15,8 +15,7 @@ int main(){
             printf("///////////////Informe um número: ");
             scanf("%d", &numeroPessoa);
             
-            /**número 0 a 1000*/
-            srand(time(NULL));
+            rand();
                 
             for (i=0; i < 1; i++){
                 maquina = rand() %1000;
@@ -69,7 +68,6 @@ int main(){
         }
         
 }
-
 
 
 
